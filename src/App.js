@@ -10,8 +10,8 @@ function App() {
 
   const notify=()=>{
     toast("Basic notifications!",{ position: toast.POSITION.TOP_LEFT})
-    toast.success("Sucess Basic notifications!",{ position: toast.POSITION.TOP_CENTER})
-    toast.info(" Info Basic notifications!",{ position: toast.POSITION.TOP_RIGHT})
+    toast.success("Sucess Basic notifications!",{ position: toast.POSITION.TOP_CENTER,autoClose:8000})
+    toast.info(" Info Basic notifications!",{ position: toast.POSITION.TOP_RIGHT,autoClose:false})
     toast.warn("Warning Basic notifications!",{ position: toast.POSITION.BOTTOM_LEFT})
     toast.error("Error Basic notifications!",{ position: toast.POSITION.BOTTOM_LEFT})
     toast("Basic notifications!",{ position: toast.POSITION.BOTTOM_LEFT})
