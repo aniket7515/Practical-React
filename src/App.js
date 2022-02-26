@@ -9,7 +9,12 @@ toast.configure()
 function App() {
 
   const notify=()=>{
-    toast("Basic notifications!")
+    toast("Basic notifications!",{ position: toast.POSITION.TOP_LEFT})
+    toast("Basic notifications!",{ position: toast.POSITION.TOP_CENTER})
+    toast("Basic notifications!",{ position: toast.POSITION.TOP_RIGHT})
+    toast("Basic notifications!",{ position: toast.POSITION.BOTTOM_LEFT})
+    toast("Basic notifications!",{ position: toast.POSITION.BOTTOM_LEFT})
+    toast("Basic notifications!",{ position: toast.POSITION.BOTTOM_LEFT})
   }
 
   return (
