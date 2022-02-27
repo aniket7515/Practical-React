@@ -1,6 +1,7 @@
 
 import './App.css';
 import Modal1 from './components/Modal1';
+import Tt from './components/Tt';
 
 function App() {
 
@@ -8,7 +9,8 @@ function App() {
     <div className="App">
    
       {/* <ToastNotification/> */}
-      <Modal1/>
+      {/* <Modal1/> */}
+      <Tt/>
       
     </div>
   );
