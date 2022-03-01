@@ -5,8 +5,12 @@ import '../App.css'
 const Count1 = () => {
   return (
     <div>
-        React countup
+       
         <CountUp end={200} />
+        <br/>
+        <CountUp end={200} duration={5} />
+        <br/>
+        <CountUp start={500} end={1000} duration={5} />
     </div>
   )
 }
